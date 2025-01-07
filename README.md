@@ -43,7 +43,7 @@ API_KEY="CHANGEME"
 
 ### Deployment
 
-This worker can be deployed to your Cloudflare environment by running `npm run deploy`.
+This worker can be deployed to your Cloudflare environment by running `npm run deploy`. Make sure you set the `API_KEY` secret value on your deployed worker by running `npx wrangler secret put <KEY>`.
 
 ## Usage
 
